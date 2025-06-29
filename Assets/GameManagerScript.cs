@@ -5,8 +5,8 @@ using System.Collections;
 public class GameManagerScript : MonoBehaviour
 {
     [SerializeField] private GameObject gameOverScreen;
-    public float familyScore = 0f;
-    public float friendScore = 0f;
+    public float familyScore = 100f;
+    public float friendScore = 100f;
     [SerializeField] private float scoreDrain = 15f;
     [SerializeField] private float initialWait = 5f;
     [SerializeField] private float drainInterval = 5f;
@@ -25,6 +25,14 @@ public class GameManagerScript : MonoBehaviour
         StartCoroutine(DrainScoresOverTime());
     }
 
+    private void Update()
+    {
+        if (familyScore <= 0 || friendScore <= 0)
+        {
+            GameOver();
+        } 
+    }
+
     public void GameOver()
     {
         gameOverScreen.SetActive(true);
@@ -38,6 +46,12 @@ public class GameManagerScript : MonoBehaviour
         Scene currentScene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(currentScene.name);
     }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
 
     public void IncreaseFamilyScore()
     {

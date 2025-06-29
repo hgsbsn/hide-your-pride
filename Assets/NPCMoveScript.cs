@@ -28,8 +28,11 @@ public class RandomNPCMovement : MonoBehaviour
     public GameObject speechBubble;
     public float personalLeoTimeReset = 30f;
     [SerializeField] private float personalLeoTime = 30f;
+    [SerializeField] private float minPersonalTime = 30f;
+    [SerializeField] private float maxPersonalTime = 45f;
 
     [SerializeField] private float stopDistanceFromPlayer = 1.5f;
+    [SerializeField] private GameObject personalTimeIndicator;
 
     //[SerializeField] private RaycastVision raycastVision;
 
@@ -40,7 +43,7 @@ public class RandomNPCMovement : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         ResumeMovement();
         RandomizeInterval();
-        personalLeoTime = personalLeoTimeReset;
+        personalLeoTime = Random.Range(minPersonalTime, maxPersonalTime);
     }
 
     private enum MovementState { Moving, Paused }
@@ -65,6 +68,7 @@ public class RandomNPCMovement : MonoBehaviour
         {
             // Aggressive state: chase the player constantly
             moveSpeed = defaultMoveSpeed * 2f;
+            personalTimeIndicator.SetActive(true);
             Vector2 toPlayer = (player.transform.position - transform.position).normalized;
             Vector2 randomOffset = new Vector2(Random.Range(-0.2f, 0.2f), Random.Range(-0.2f, 0.2f));
             moveDirection = (toPlayer + randomOffset).normalized;
@@ -108,6 +112,8 @@ public class RandomNPCMovement : MonoBehaviour
 
             if (distance <= stopDistanceFromPlayer)
             {
+                personalTimeIndicator.SetActive(false);
+                moveSpeed = defaultMoveSpeed;
                 rb.linearVelocity = Vector2.zero;
                 if (family && !player.masc || !family && player.masc)
                 {
