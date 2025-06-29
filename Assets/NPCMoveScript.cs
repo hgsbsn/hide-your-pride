@@ -28,6 +28,7 @@ public class RandomNPCMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         ChooseNewDirection();
+        RandomizeInterval();
     }
 
     private void Update()
@@ -36,6 +37,7 @@ public class RandomNPCMovement : MonoBehaviour
         if (timer >= directionChangeInterval)
         {
             ChooseNewDirection();
+            RandomizeInterval();
             timer = 0f;
         }
     }
@@ -88,5 +90,10 @@ public class RandomNPCMovement : MonoBehaviour
                 directionalPointerDown.SetActive(true);
             }
         }
+    }
+
+    private void RandomizeInterval()
+    {
+        directionChangeInterval = Random.Range(2f, 20f);
     }
 }
