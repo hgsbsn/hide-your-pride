@@ -1,0 +1,2054 @@
+fileFormatVersion: 2
+guid: 574108cde838e463cba4f020a58380ab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8773926772950194279
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_0
+  - first:
+      213: 942051115937015444
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_1
+  - first:
+      213: 722298728876549103
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_2
+  - first:
+      213: -4920455422721842987
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_3
+  - first:
+      213: 912906228771469159
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_4
+  - first:
+      213: -2361687513992261131
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_5
+  - first:
+      213: 163316147788171033
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_6
+  - first:
+      213: 3012890293919455084
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_7
+  - first:
+      213: 7465130484860731342
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_8
+  - first:
+      213: 2031389463026958267
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_9
+  - first:
+      213: -3278694364969965563
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_10
+  - first:
+      213: 4915654622858690132
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_11
+  - first:
+      213: -2797279396090993151
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_12
+  - first:
+      213: -979433253235877110
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_13
+  - first:
+      213: 4417336654503278920
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_14
+  - first:
+      213: 3924957572136133935
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_15
+  - first:
+      213: 8743791861479078297
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_16
+  - first:
+      213: 7175137742357227929
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_17
+  - first:
+      213: -976071295521290444
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_18
+  - first:
+      213: -821499559817824365
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_19
+  - first:
+      213: -5865697915726360487
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_20
+  - first:
+      213: 8427722302523385692
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_21
+  - first:
+      213: 1319654686142390548
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_22
+  - first:
+      213: 3815043463497197062
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_23
+  - first:
+      213: 447215391119243144
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_24
+  - first:
+      213: -5754769967826258663
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_25
+  - first:
+      213: 5766271469736571644
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_26
+  - first:
+      213: -6246787416417612223
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_27
+  - first:
+      213: 8734274567744000941
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_28
+  - first:
+      213: 4851646218899667743
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_29
+  - first:
+      213: -5371335693893976526
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_30
+  - first:
+      213: 61121855413782827
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_31
+  - first:
+      213: 3165668828419040335
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_32
+  - first:
+      213: 4546089842144543276
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_33
+  - first:
+      213: 2121724576150846857
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_34
+  - first:
+      213: 1455244204790846906
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_35
+  - first:
+      213: -3738940122798516286
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_36
+  - first:
+      213: -7186554746774237072
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_37
+  - first:
+      213: -2405419057295455306
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_38
+  - first:
+      213: 7763126638447213499
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_39
+  - first:
+      213: -8857767614107517078
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_40
+  - first:
+      213: 714922393437911329
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_41
+  - first:
+      213: -4646316634089849914
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_42
+  - first:
+      213: -3563181458392495595
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_43
+  - first:
+      213: 6857118522334997824
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_44
+  - first:
+      213: -7106354114338667781
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_45
+  - first:
+      213: 217468760885980720
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_46
+  - first:
+      213: 7461710345829172063
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_47
+  - first:
+      213: -2538216642151159349
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_48
+  - first:
+      213: -5216092338041302569
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_49
+  - first:
+      213: 3403043014774003551
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_50
+  - first:
+      213: -8012089957113861613
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_51
+  - first:
+      213: -3809086151829146434
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_52
+  - first:
+      213: -98393119927047186
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_53
+  - first:
+      213: 1624515955055259498
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_54
+  - first:
+      213: -5647538463731521215
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_55
+  - first:
+      213: -5230503588661891848
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_56
+  - first:
+      213: -4670416934035917488
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_57
+  - first:
+      213: 124602765909866976
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_58
+  - first:
+      213: 5906078542929944745
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_59
+  - first:
+      213: 288977010063884732
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_60
+  - first:
+      213: 3547362274209628544
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_61
+  - first:
+      213: -1614949732462588152
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_62
+  - first:
+      213: 4294423409733201173
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_63
+  - first:
+      213: -1461696480262988918
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_64
+  - first:
+      213: 6079459916784607539
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_65
+  - first:
+      213: 5140144780731165833
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_66
+  - first:
+      213: -3374632035306007695
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_67
+  - first:
+      213: 8575064166329058707
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_68
+  - first:
+      213: 7426690902331106281
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_69
+  - first:
+      213: -6610498972751150791
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_70
+  - first:
+      213: -1711940749653563819
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_71
+  - first:
+      213: -4200476811008057121
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_72
+  - first:
+      213: 3229570645014676931
+    second: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_73
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1000
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2246
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7685cfae9ef33c970800000000000000
+      internalID: 8773926772950194279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_1
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 0
+        width: 1819
+        height: 2493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496afadaf76d21d00800000000000000
+      internalID: 942051115937015444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_2
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 2365
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe32764fdde160a00800000000000000
+      internalID: 722298728876549103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_3
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 2390
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d0258bdcd707bbb0800000000000000
+      internalID: -4920455422721842987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_4
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 2397
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7673a27d06b4bac00800000000000000
+      internalID: 912906228771469159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_5
+      rect:
+        serializedVersion: 2
+        x: 2207
+        y: 2308
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1140208b9993fd0800000000000000
+      internalID: -2361687513992261131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_6
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 2345
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 917cffecb27344200800000000000000
+      internalID: 163316147788171033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_7
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 2247
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c679a4462cfefc920800000000000000
+      internalID: 3012890293919455084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_8
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 2278
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf3010cf98799760800000000000000
+      internalID: 7465130484860731342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_9
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 2162
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf713034f1f03c10800000000000000
+      internalID: 2031389463026958267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_10
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 1914
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 508e3e8a8dcbf72d0800000000000000
+      internalID: -3278694364969965563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_11
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 2086
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ebff1d5d9e73440800000000000000
+      internalID: 4915654622858690132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_12
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 2111
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1062a7ab5311e29d0800000000000000
+      internalID: -2797279396090993151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_13
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 2028
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b9bab35aa5862f0800000000000000
+      internalID: -979433253235877110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_14
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 2066
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849faf088488d4d30800000000000000
+      internalID: 4417336654503278920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_15
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1968
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2567a5dd10487630800000000000000
+      internalID: 3924957572136133935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_16
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1999
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99979651f50385970800000000000000
+      internalID: 8743791861479078297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_17
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 1969
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99963bbd2c5339360800000000000000
+      internalID: 7175137742357227929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_18
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1645
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4378ff2045c4472f0800000000000000
+      internalID: -976071295521290444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_19
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 1764
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3973be9b0827994f0800000000000000
+      internalID: -821499559817824365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_20
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 1789
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950916dc2dad89ea0800000000000000
+      internalID: -5865697915726360487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_21
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 1796
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c572b8b38c845f470800000000000000
+      internalID: 8427722302523385692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_22
+      rect:
+        serializedVersion: 2
+        x: 2207
+        y: 1707
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41162b9f1fa505210800000000000000
+      internalID: 1319654686142390548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_23
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 1744
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6062d6c21d1c1f430800000000000000
+      internalID: 3815043463497197062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_24
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 1646
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887ffbd5704d43600800000000000000
+      internalID: 447215391119243144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_25
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 1677
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91531af4433f220b0800000000000000
+      internalID: -5754769967826258663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_26
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1561
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf23e18c959e50050800000000000000
+      internalID: 5766271469736571644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_27
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 1313
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e4c0111f3fe49a0800000000000000
+      internalID: -6246787416417612223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_28
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1485
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da31c157170663970800000000000000
+      internalID: 8734274567744000941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_29
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1510
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1bb16de782845340800000000000000
+      internalID: 4851646218899667743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_30
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1427
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23eb21c15ae2575b0800000000000000
+      internalID: -5371335693893976526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_31
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1465
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2983ffe00629d000800000000000000
+      internalID: 61121855413782827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_32
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1367
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44a17ae607beeb20800000000000000
+      internalID: 3165668828419040335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_33
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1398
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22890e00a4f61f30800000000000000
+      internalID: 4546089842144543276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_34
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 1368
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98dffa8b241e17d10800000000000000
+      internalID: 2121724576150846857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_35
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1044
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab51100e4e0123410800000000000000
+      internalID: 1455244204790846906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_36
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 1163
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c79320a4cd9c1cc0800000000000000
+      internalID: -3738940122798516286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_37
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 1188
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070df97a88a344c90800000000000000
+      internalID: -7186554746774237072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_38
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 1195
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb03f1ac1c3e9ed0800000000000000
+      internalID: -2405419057295455306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_39
+      rect:
+        serializedVersion: 2
+        x: 2207
+        y: 1106
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbbb40ffb8a2cbb60800000000000000
+      internalID: 7763126638447213499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_40
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 1143
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6f79221943e21580800000000000000
+      internalID: -8857767614107517078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_41
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 1045
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129b6d6012aebe900800000000000000
+      internalID: 714922393437911329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_42
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 1076
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cbf51773a7f48fb0800000000000000
+      internalID: -4646316634089849914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_43
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 960
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ac14697590d8ec0800000000000000
+      internalID: -3563181458392495595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_44
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 712
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04d678a27f0692f50800000000000000
+      internalID: 6857118522334997824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_45
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 884
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf245b68598216d90800000000000000
+      internalID: -7106354114338667781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_46
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 909
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03e6a529faa940300800000000000000
+      internalID: 217468760885980720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_47
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 826
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53410496025d8760800000000000000
+      internalID: 7461710345829172063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_48
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 864
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc96899796176ccd0800000000000000
+      internalID: -2538216642151159349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_49
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 766
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d1596397a7bc97b0800000000000000
+      internalID: -5216092338041302569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_50
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 797
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f579af287990a3f20800000000000000
+      internalID: 3403043014774003551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_51
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 767
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ae0c542a65fc090800000000000000
+      internalID: -8012089957113861613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_52
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 443
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb43d598358632bc0800000000000000
+      internalID: -3809086151829146434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_53
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 562
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eebe76e8aff62aef0800000000000000
+      internalID: -98393119927047186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_54
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 587
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6fe50177a07b8610800000000000000
+      internalID: 1624515955055259498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_55
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 594
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1496ded60b9ef91b0800000000000000
+      internalID: -5647538463731521215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_56
+      rect:
+        serializedVersion: 2
+        x: 2207
+        y: 505
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fce661d2b48967b0800000000000000
+      internalID: -5230503588661891848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_57
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 542
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055f1dd1b885f2fb0800000000000000
+      internalID: -4670416934035917488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_58
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 444
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e9b6103e8daab100800000000000000
+      internalID: 124602765909866976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_59
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 475
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a065ee942b96f150800000000000000
+      internalID: 5906078542929944745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_60
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 359
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb1cc114f07a20400800000000000000
+      internalID: 288977010063884732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_61
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 111
+        width: 255
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08103e39133ca3130800000000000000
+      internalID: 3547362274209628544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_62
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 283
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f847256cb8699e0800000000000000
+      internalID: -1614949732462588152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_63
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 308
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51de44c965bd89b30800000000000000
+      internalID: 4294423409733201173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_64
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 225
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b5c7cabc207bbe0800000000000000
+      internalID: -1461696480262988918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_65
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 263
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3312c2e75949e5450800000000000000
+      internalID: 6079459916784607539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_66
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 165
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c2f85c176755740800000000000000
+      internalID: 5140144780731165833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_67
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 196
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1739eef1b06ea21d0800000000000000
+      internalID: -3374632035306007695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_68
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 166
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39589383d6fb00770800000000000000
+      internalID: 8575064166329058707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_69
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 96
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e322120708e01760800000000000000
+      internalID: 7426690902331106281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_70
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 0
+        width: 96
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 931451d453ac244a0800000000000000
+      internalID: -6610498972751150791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_71
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 0
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 556226c55f6fd38e0800000000000000
+      internalID: -1711940749653563819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_72
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 0
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd069907898e4b5c0800000000000000
+      internalID: -4200476811008057121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_73
+      rect:
+        serializedVersion: 2
+        x: 2410
+        y: 0
+        width: 90
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c50121046db1dc20800000000000000
+      internalID: 3229570645014676931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_0: 8773926772950194279
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_1: 942051115937015444
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_10: -3278694364969965563
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_11: 4915654622858690132
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_12: -2797279396090993151
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_13: -979433253235877110
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_14: 4417336654503278920
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_15: 3924957572136133935
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_16: 8743791861479078297
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_17: 7175137742357227929
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_18: -976071295521290444
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_19: -821499559817824365
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_2: 722298728876549103
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_20: -5865697915726360487
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_21: 8427722302523385692
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_22: 1319654686142390548
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_23: 3815043463497197062
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_24: 447215391119243144
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_25: -5754769967826258663
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_26: 5766271469736571644
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_27: -6246787416417612223
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_28: 8734274567744000941
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_29: 4851646218899667743
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_3: -4920455422721842987
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_30: -5371335693893976526
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_31: 61121855413782827
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_32: 3165668828419040335
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_33: 4546089842144543276
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_34: 2121724576150846857
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_35: 1455244204790846906
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_36: -3738940122798516286
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_37: -7186554746774237072
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_38: -2405419057295455306
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_39: 7763126638447213499
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_4: 912906228771469159
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_40: -8857767614107517078
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_41: 714922393437911329
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_42: -4646316634089849914
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_43: -3563181458392495595
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_44: 6857118522334997824
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_45: -7106354114338667781
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_46: 217468760885980720
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_47: 7461710345829172063
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_48: -2538216642151159349
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_49: -5216092338041302569
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_5: -2361687513992261131
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_50: 3403043014774003551
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_51: -8012089957113861613
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_52: -3809086151829146434
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_53: -98393119927047186
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_54: 1624515955055259498
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_55: -5647538463731521215
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_56: -5230503588661891848
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_57: -4670416934035917488
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_58: 124602765909866976
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_59: 5906078542929944745
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_6: 163316147788171033
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_60: 288977010063884732
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_61: 3547362274209628544
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_62: -1614949732462588152
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_63: 4294423409733201173
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_64: -1461696480262988918
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_65: 6079459916784607539
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_66: 5140144780731165833
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_67: -3374632035306007695
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_68: 8575064166329058707
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_69: 7426690902331106281
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_7: 3012890293919455084
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_70: -6610498972751150791
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_71: -1711940749653563819
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_72: -4200476811008057121
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_73: 3229570645014676931
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_8: 7465130484860731342
+      pngtree-playful-cartoon-lion-with-safari-hat-and-clothes-clipart-png-image_19377662_9: 2031389463026958267
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
