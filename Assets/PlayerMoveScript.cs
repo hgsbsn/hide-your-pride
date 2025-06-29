@@ -1,10 +1,13 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerMovement2D : MonoBehaviour
 {
-    [SerializeField] private float moveSpeed = 5f;
+    [SerializeField] private float defaultMoveSpeed = 5f;
+    private float moveSpeed = 5f;
+    [SerializeField] private float moveSpeedWhileTransitioning = 1f;
 
     public InputAction moveAction;
     public InputAction transitionAction;
@@ -15,10 +18,14 @@ public class PlayerMovement2D : MonoBehaviour
     public Sprite baseLenora;
     public Sprite mascLenora;
     public bool masc = false;
-
+    public bool inTransition = false;
+    [SerializeField] private ParticleSystem dangerEffect; // Assign in Inspector
+    [SerializeField] private float transitionTime = 4f;
+ 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        moveSpeed = defaultMoveSpeed;
     }
 
     private void OnEnable()
@@ -48,9 +55,35 @@ public class PlayerMovement2D : MonoBehaviour
 
     private void OnTransition(InputAction.CallbackContext context)
     {
-        masc = !masc; // Flip the bool
+        if (!inTransition)
+            StartCoroutine(HandleTransition());
+    }
 
+    private IEnumerator HandleTransition()
+    {
+        inTransition = true;
+
+        // Optional: Set a danger state here (e.g., animation, color change, etc.)
+        // Example: sprite.color = Color.red;
+
+        // Spawn particle effect
+        if (dangerEffect != null)
+            dangerEffect.Play();
+        moveSpeed = moveSpeedWhileTransitioning;
+
+        yield return new WaitForSeconds(transitionTime);
+
+        // Flip the bool
+        masc = !masc;
         sprite.sprite = masc ? mascLenora : baseLenora;
+        if (dangerEffect != null)
+            dangerEffect.Stop();
+        moveSpeed = defaultMoveSpeed;
+
+        // Optional: Clear danger state
+        // Example: sprite.color = Color.white;
+
+        inTransition = false;
     }
 
     private void FixedUpdate()
