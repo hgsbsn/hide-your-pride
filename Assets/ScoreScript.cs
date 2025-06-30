@@ -17,12 +17,13 @@ public class ScoreDisplay : MonoBehaviour
     {
         if (gameManager != null && familyScore)
         {
-            scoreText.text = $"Family Score: {gameManager.familyScore:F0}";
+            scoreText.text = $"Family Approval: {gameManager.familyScore:F0}";
+
         }
 
         if (gameManager != null && !familyScore)
         {
-            scoreText.text = $"Friend Score: {gameManager.friendScore:F0}";
+            scoreText.text = $"Friend Approval: {gameManager.friendScore:F0}";
         }
     }
 }

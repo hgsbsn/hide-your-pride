@@ -18,7 +18,8 @@ public class GameManagerScript : MonoBehaviour
     public float goodTimerStanding = 10f;
     public float midTimerStanding = 5f;
     public float badTimerStanding = 0f;
-
+    [SerializeField] private HeartFill familyHeartFill;
+    [SerializeField] private HeartFill friendHeartFill;
 
     private void Start()
     {
@@ -27,6 +28,8 @@ public class GameManagerScript : MonoBehaviour
 
     private void Update()
     {
+        familyHeartFill.UpdateFamilyHeartFill(familyScore);
+        friendHeartFill.UpdateFriendHeartFill(friendScore);
         if (familyScore <= 0 || friendScore <= 0)
         {
             GameOver();
@@ -52,6 +55,10 @@ public class GameManagerScript : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
+    public void Finale()
+    {
+        SceneManager.LoadScene("Finale");
+    }
 
     public void IncreaseFamilyScore()
     {

@@ -4,9 +4,12 @@ using UnityEngine.SceneManagement;
 public class MainMenuScript : MonoBehaviour
 {
     [SerializeField] private GameObject creditsPanel;
+    [SerializeField] private AudioSource rawr;
 
     public void LoadLevel()
     {
+        DontDestroyOnLoad(rawr);
+        rawr.Play();
         SceneManager.LoadScene("Tutorial");
     }
 

@@ -50,18 +50,18 @@ public class TimeSpentScript : MonoBehaviour
 
     private void UpdateFriendTimerDisplay()
     {
-        print("updating timer");
+        //print("updating timer");
         int minutes = Mathf.FloorToInt(gameManager.friendTimeTimer / 60);
         int seconds = Mathf.FloorToInt(gameManager.friendTimeTimer % 60);
-        timerText.text = $"{minutes:00}:{seconds:00}";
+        timerText.text = $"Friends miss you in: {minutes:00}:{seconds:00}";
     }
 
     private void UpdateFamilyTimerDisplay()
     {
-        print("updating timer");
+        //print("updating timer");
         int minutes = Mathf.FloorToInt(gameManager.familyTimeTimer / 60);
         int seconds = Mathf.FloorToInt(gameManager.familyTimeTimer % 60);
-        timerText.text = $"{minutes:00}:{seconds:00}";
+        timerText.text = $"Family misses you in: {minutes:00}:{seconds:00}";
     }
 
     private void OnTimerEnd()

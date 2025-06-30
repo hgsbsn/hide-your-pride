@@ -118,6 +118,7 @@ public class RandomNPCMovement : MonoBehaviour
                 if (family && !player.masc || !family && player.masc)
                 {
                     gameManager.GameOver();
+                    return;
                 }
                 if(family && player.masc)
                 {
