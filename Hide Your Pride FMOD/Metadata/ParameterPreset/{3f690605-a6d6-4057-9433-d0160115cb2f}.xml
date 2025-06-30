@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{3f690605-a6d6-4057-9433-d0160115cb2f}">
+		<property name="name">
+			<value>MusicState</value>
+		</property>
+		<relationship name="folder">
+			<destination>{bd499dbd-731b-4714-89b3-2e595f084f31}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{4505bebf-b252-4262-b2e5-95c5779d0194}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{4505bebf-b252-4262-b2e5-95c5779d0194}">
+		<property name="minimum">
+			<value>-1</value>
+		</property>
+		<property name="maximum">
+			<value>5</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{cbee612a-cfc7-4dc9-82f7-c60540d1b23d}</destination>
+		</relationship>
+	</object>
+	<object class="SeekModulator" id="{cbee612a-cfc7-4dc9-82f7-c60540d1b23d}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+	</object>
+</objects>

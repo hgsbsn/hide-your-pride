@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{ee0a72c6-0673-4f45-92cc-69f71471e9ba}">
+		<property name="assetPath">
+			<value>Panic (Isolated)/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f811f9ea-130a-47da-bc4d-0babb22f0fc9}</destination>
+		</relationship>
+	</object>
+</objects>
