@@ -6,11 +6,8 @@ using FMOD.Studio;
 
 public class AudioManager : MonoBehaviour
 {
-    private List<EventInstance> eventInstances;
-    private List<StudioEventEmitter> eventEmitters;
-
-    private EventInstance introMusic;
     
+    public EventInstance music;
     public static AudioManager instance { get; private set; }
 
     private void Awake()
@@ -21,45 +18,28 @@ public class AudioManager : MonoBehaviour
         }
         instance = this;
         
-        eventInstances = new List<EventInstance>();
-        eventEmitters = new List<StudioEventEmitter>();
     }
 
     private void Start()
     {
         InitializeMusic(FMODEvents.instance.music);
     }
-
-    private void InitializeMusic(EventReference introMusicEventReference)
-    {
-        introMusic = CreateEventInstance(introMusicEventReference);
-        introMusic.setParameterByName("MusicState", -1.0f);
-        introMusic.start();
-    }
-
-    public void PlayOneShot(EventReference sound, Vector3 scenePosition)
-    {
-        RuntimeManager.PlayOneShot(sound, scenePosition);
-    }
-
+    
     public EventInstance CreateEventInstance(EventReference eventReference)
     {
         EventInstance eventInstance = RuntimeManager.CreateInstance(eventReference);
-        eventInstances.Add(eventInstance);
         return eventInstance;
     }
 
-    private void CleanUp()
+    private void InitializeMusic(EventReference introMusicEventReference)
     {
-        foreach (EventInstance eventInstance in eventInstances)
-        {
-            eventInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
-            eventInstance.release();
-        }
+        music = CreateEventInstance(introMusicEventReference);
+        music.setParameterByName("MusicState", -1.0f);
+        music.start();
     }
 
-    private void OnDestroy()
+    public void UpdateMusic(float musicState)
     {
-        CleanUp();
+        music.setParameterByName("MusicState", musicState);
     }
 }
