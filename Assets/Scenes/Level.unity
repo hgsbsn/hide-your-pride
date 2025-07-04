@@ -5300,6 +5300,7 @@ MonoBehaviour:
   badTimerStanding: 0
   familyHeartFill: {fileID: 1961814781}
   friendHeartFill: {fileID: 518016121}
+  player: {fileID: 1614993729}
 --- !u!4 &649863167
 Transform:
   m_ObjectHideFlags: 0

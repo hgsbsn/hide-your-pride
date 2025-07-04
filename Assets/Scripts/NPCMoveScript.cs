@@ -126,7 +126,10 @@ public class RandomNPCMovement : MonoBehaviour
                     gameManager.IncreaseFamilyScore();
                     gameManager.familyTimeTimer = gameManager.timeSpentTimerReset;
                     personalLeoTime = personalLeoTimeReset;
-                    //print(gameManager.familyTimeTimer);
+                    // print(gameManager.familyTimeTimer);
+                    
+                    // Update the music state
+                    AudioManager.instance.UpdateMusic(2.0f);
                 }
                 if (!family && !player.masc)
                 {
@@ -134,6 +137,9 @@ public class RandomNPCMovement : MonoBehaviour
                     gameManager.IncreaseFriendScore();
                     gameManager.friendTimeTimer = gameManager.timeSpentTimerReset;
                     personalLeoTime = personalLeoTimeReset;
+                    
+                    // Update the music state
+                    AudioManager.instance.UpdateMusic(0.0f);
                 }
                 return;
             }

@@ -24,6 +24,20 @@ public class AudioManager : MonoBehaviour
     {
         InitializeMusic(FMODEvents.instance.music);
     }
+
+    /*
+    private void Update()
+    {
+        if (npc.playerSpotted && player.masc)
+        {
+            UpdateMusic(3.0f);
+        }
+        if (npc.playerSpotted && !player.masc)
+        {
+            UpdateMusic(1.0f);
+        }
+    }
+    */
     
     public EventInstance CreateEventInstance(EventReference eventReference)
     {
@@ -41,5 +55,11 @@ public class AudioManager : MonoBehaviour
     public void UpdateMusic(float musicState)
     {
         music.setParameterByName("MusicState", musicState);
+    }
+
+    public void StopMusic()
+    {
+        music.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+        music.release();
     }
 }

@@ -21,6 +21,8 @@ public class GameManagerScript : MonoBehaviour
     [SerializeField] private HeartFill familyHeartFill;
     [SerializeField] private HeartFill friendHeartFill;
 
+    public PlayerMovement2D player;
+
     private void Start()
     {
         StartCoroutine(DrainScoresOverTime());
@@ -40,6 +42,7 @@ public class GameManagerScript : MonoBehaviour
     {
         gameOverScreen.SetActive(true);
         Time.timeScale = 0f;
+        AudioManager.instance.StopMusic();
         Debug.Log("Game Over!");
     }
 
@@ -85,6 +88,15 @@ public class GameManagerScript : MonoBehaviour
             else if(familyTimeTimer >= midTimerStanding)
             {
                 familyTimeDrainMult = .5f;
+                
+                if (!player.masc)
+                {
+                    AudioManager.instance.UpdateMusic(1.0f);
+                }
+                else
+                {
+                    AudioManager.instance.UpdateMusic(3.0f);
+                }
             }
             else if (familyTimeTimer >= badTimerStanding)
             {
@@ -97,6 +109,15 @@ public class GameManagerScript : MonoBehaviour
             else if (friendTimeTimer >= midTimerStanding)
             {
                 friendTimeDrainMult = .5f;
+                
+                if (!player.masc)
+                {
+                    AudioManager.instance.UpdateMusic(1.0f);
+                }
+                else
+                {
+                    AudioManager.instance.UpdateMusic(3.0f);
+                }
             }
             else if (friendTimeTimer >= badTimerStanding)
             {
