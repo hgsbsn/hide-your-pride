@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Hide Your Pride FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638868477326373159
+  lastModified: 638875809535873181
   FileSizes:
   - Name: Desktop
     Value: 992
@@ -91,7 +91,7 @@ MonoBehaviour:
   Path: Hide Your Pride FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638868477326365269
+  lastModified: 638875809535872062
   FileSizes:
   - Name: Desktop
     Value: 1318
@@ -111,7 +111,7 @@ MonoBehaviour:
   Path: Hide Your Pride FMOD/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638868477327072335
+  lastModified: 638875809535922296
   FileSizes:
   - Name: Desktop
     Value: 2519008
@@ -166,7 +166,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -8726458669979578825}
   cacheVersion: 131848
-  cacheTime: 638868477327072335
+  cacheTime: 638875809535922296
   SerializableEventsDict:
   - key: event:/Tests/queerComfortTest
     index: 0

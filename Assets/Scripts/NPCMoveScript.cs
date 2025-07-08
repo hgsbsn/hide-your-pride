@@ -18,7 +18,6 @@ public class RandomNPCMovement : MonoBehaviour
     public Vector2 moveDirection;
     public Vector2 spottedPlayerDirection = Vector2.right;
     public bool playerSpotted = false;
-    private float timer;
     [SerializeField] private FieldOfView2D fieldOfView;
     [SerializeField] private float minInterval = 2f;
     [SerializeField] private float maxInterval = 20f;
@@ -34,6 +33,9 @@ public class RandomNPCMovement : MonoBehaviour
     [SerializeField] private float stopDistanceFromPlayer = 1.5f;
     [SerializeField] private GameObject personalTimeIndicator;
 
+    public float playerDistance = 100f;
+    public float defaultDistance;
+
     //[SerializeField] private RaycastVision raycastVision;
 
 
@@ -43,14 +45,13 @@ public class RandomNPCMovement : MonoBehaviour
         ResumeMovement();
         RandomizeInterval();
         personalLeoTime = Random.Range(minPersonalTime, maxPersonalTime);
+        defaultDistance = playerDistance;
     }
 
     private enum MovementState { Moving, Paused }
     private MovementState currentState = MovementState.Moving;
 
     private float stateTimer;
-    [SerializeField] private float pauseDurationMin = 1f;
-    [SerializeField] private float pauseDurationMax = 3f;
 
     private void Update()
     {
@@ -103,6 +104,12 @@ public class RandomNPCMovement : MonoBehaviour
         {
             float distance = Vector2.Distance(transform.position, spottedPlayerDirection);
 
+            if (family && !player.masc || !family && player.masc)
+            {
+                playerDistance = distance;
+            }
+            
+
             if (player.inTransition)
             {
                 gameManager.GameOver();
@@ -147,6 +154,11 @@ public class RandomNPCMovement : MonoBehaviour
                 speechBubble.SetActive(false);
             }
         }
+        else
+        {
+            playerDistance = defaultDistance;
+        }
+            
 
         personalLeoTime -= Time.deltaTime;
         rb.linearVelocity = moveDirection * moveSpeed;
@@ -166,7 +178,7 @@ public class RandomNPCMovement : MonoBehaviour
     {
         if (playerSpotted)
         {
-            print("moving towards player!");
+            //print("moving towards player!");
 
             // Fix: Use direction vector, not raw position
             Vector2 toPlayer = (spottedPlayerDirection - (Vector2)transform.position).normalized;

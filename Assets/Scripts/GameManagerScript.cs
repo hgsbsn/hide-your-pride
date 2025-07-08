@@ -20,6 +20,8 @@ public class GameManagerScript : MonoBehaviour
     public float badTimerStanding = 0f;
     [SerializeField] private HeartFill familyHeartFill;
     [SerializeField] private HeartFill friendHeartFill;
+    public Animator familyAnim;
+    public Animator friendAnim;
 
     public PlayerMovement2D player;
 
@@ -43,7 +45,7 @@ public class GameManagerScript : MonoBehaviour
         gameOverScreen.SetActive(true);
         Time.timeScale = 0f;
         AudioManager.instance.StopMusic();
-        Debug.Log("Game Over!");
+        //Debug.Log("Game Over!");
     }
 
     public void ResetScene()
@@ -126,8 +128,18 @@ public class GameManagerScript : MonoBehaviour
             }
 
 
-            familyScore -= scoreDrain * familyTimeDrainMult;
-            friendScore -= scoreDrain * friendTimeDrainMult;
+            if(familyTimeDrainMult > 0)
+            {
+                familyScore -= scoreDrain * familyTimeDrainMult;
+                Debug.Log("Family Drain!");
+                familyAnim.Play("HeartAnim");
+            }
+
+            if (friendTimeDrainMult > 0)
+            {
+                friendScore -= scoreDrain * friendTimeDrainMult;
+                friendAnim.Play("HeartAnim");
+            }
 
             // Clamp scores to 0 to avoid going negative (optional)
             familyScore = Mathf.Max(familyScore, 0f);

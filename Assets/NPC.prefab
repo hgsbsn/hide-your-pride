@@ -231,8 +231,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.39, y: 0.39, z: 0.39}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 5785648157733746457}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -280,8 +280,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2832960780260485918, guid: e0730c2402f264431ade2d679758cb33, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 8249b1ec38eab45df813ff9be5344bb2, type: 3}
+  m_Color: {r: 0.990566, g: 0.47586533, b: 0.11681201, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -392,7 +392,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2832960780260485918, guid: e0730c2402f264431ade2d679758cb33, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8249b1ec38eab45df813ff9be5344bb2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -416,10 +416,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultMoveSpeed: 2
-  upSprite: {fileID: -670398413524545761, guid: e0730c2402f264431ade2d679758cb33, type: 3}
-  downSprite: {fileID: -7779320843229246424, guid: e0730c2402f264431ade2d679758cb33, type: 3}
-  leftSprite: {fileID: 8434056933167058542, guid: e0730c2402f264431ade2d679758cb33, type: 3}
-  rightSprite: {fileID: 8619057227718662538, guid: e0730c2402f264431ade2d679758cb33, type: 3}
+  upSprite: {fileID: 21300000, guid: b58f976e4070947b8a1ddeb88483a708, type: 3}
+  downSprite: {fileID: 21300000, guid: 8249b1ec38eab45df813ff9be5344bb2, type: 3}
+  leftSprite: {fileID: 21300000, guid: 3ba9b73f62fea40249f856bf9205f203, type: 3}
+  rightSprite: {fileID: 21300000, guid: 1c1f7a3d50f8e41a2a60c56bc10d879a, type: 3}
   spriteRenderer: {fileID: 6412658096946678131}
   moveDirection: {x: 0, y: 0}
   spottedPlayerDirection: {x: 1, y: 0}
@@ -437,8 +437,8 @@ MonoBehaviour:
   maxPersonalTime: 60
   stopDistanceFromPlayer: 3
   personalTimeIndicator: {fileID: 5647916522609836920}
-  pauseDurationMin: 2
-  pauseDurationMax: 5
+  playerDistance: 100
+  defaultDistance: 0
 --- !u!50 &6360507781354204024
 Rigidbody2D:
   serializedVersion: 5
@@ -704,6 +704,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5381040494141629210}
+  - component: {fileID: 2199638004335597575}
   m_Layer: 6
   m_Name: FeetDust
   m_TagString: Untagged
@@ -726,3 +727,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 5785648157733746457}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2199638004335597575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9067750473682492493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2968ba7de12d421282b75dc8285ef14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dustPrefab: {fileID: 6863558641188797667, guid: 165e93e49761e4fb2b9f19993b854210, type: 3}
+  dustSpawnPoint: {fileID: 5381040494141629210}
+  spawnInterval: 0.4
+  movementThreshold: 0.1
+  fastSpawn: 0.4
+  slowSpawn: 0.8
