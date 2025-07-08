@@ -14,7 +14,7 @@ public class RandomNPCMovement : MonoBehaviour
     [SerializeField] private Sprite rightSprite;
 
     private Rigidbody2D rb;
-    private SpriteRenderer spriteRenderer;
+    [SerializeField] private SpriteRenderer spriteRenderer;
     public Vector2 moveDirection;
     public Vector2 spottedPlayerDirection = Vector2.right;
     public bool playerSpotted = false;
@@ -40,7 +40,6 @@ public class RandomNPCMovement : MonoBehaviour
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
         ResumeMovement();
         RandomizeInterval();
         personalLeoTime = Random.Range(minPersonalTime, maxPersonalTime);

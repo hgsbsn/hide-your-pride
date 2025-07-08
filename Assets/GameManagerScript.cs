@@ -57,6 +57,7 @@ public class GameManagerScript : MonoBehaviour
 
     public void Finale()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene("Finale");
     }
 
