@@ -15,10 +15,66 @@ MonoBehaviour:
   Path: Hide Your Pride FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638867416399221560
+  lastModified: 638868477326373159
   FileSizes:
   - Name: Desktop
-    Value: 824
+    Value: 992
+  Exists: 1
+--- !u!114 &-8050288143552975944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tests/queerComfortTest
+  m_EditorClassIdentifier: 
+  Path: event:/Tests/queerComfortTest
+  Guid:
+    Data1: 622669341
+    Data2: 1103880945
+    Data3: 891115183
+    Data4: 1802150835
+  Banks:
+  - {fileID: -5052644510455157175}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7363450175487917311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/gameState
+  m_EditorClassIdentifier: 
+  Name: gameState
+  StudioPath: parameter:/gameState
+  Min: 0
+  Max: 4
+  Default: 0
+  ID:
+    data1: 2240008612
+    data2: 2417680576
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - gameStarted
+  - femmeCalm
+  - femmePanic
+  - mascCalm
+  - mascPanic
   Exists: 1
 --- !u!114 &-5313277566856632707
 MonoBehaviour:
@@ -35,38 +91,11 @@ MonoBehaviour:
   Path: Hide Your Pride FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638867416399213149
+  lastModified: 638868477326365269
   FileSizes:
   - Name: Desktop
-    Value: 1074
+    Value: 1318
   Exists: 1
---- !u!114 &-5077000954605722866
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/queerComfortTest
-  m_EditorClassIdentifier: 
-  Path: event:/queerComfortTest
-  Guid:
-    Data1: 622669341
-    Data2: 1103880945
-    Data3: 891115183
-    Data4: 1802150835
-  Banks:
-  - {fileID: -5052644510455157175}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
 --- !u!114 &-5052644510455157175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82,10 +111,34 @@ MonoBehaviour:
   Path: Hide Your Pride FMOD/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638867416402579152
+  lastModified: 638868477327072335
   FileSizes:
   - Name: Desktop
-    Value: 365056
+    Value: 2519008
+  Exists: 1
+--- !u!114 &-1413081324611106697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music New/MusicState
+  m_EditorClassIdentifier: 
+  Name: MusicState
+  StudioPath: 
+  Min: -1
+  Max: 5
+  Default: 0
+  ID:
+    data1: 588931852
+    data2: 1086602673
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -104,14 +157,46 @@ MonoBehaviour:
   - {fileID: -5313277566856632707}
   - {fileID: -5052644510455157175}
   EditorEvents:
-  - {fileID: -5077000954605722866}
-  EditorParameters: []
+  - {fileID: -8050288143552975944}
+  - {fileID: 1355384877174756597}
+  EditorParameters:
+  - {fileID: -7363450175487917311}
   MasterBanks:
   - {fileID: -5313277566856632707}
   StringsBanks:
   - {fileID: -8726458669979578825}
   cacheVersion: 131848
-  cacheTime: 638867416402579152
+  cacheTime: 638868477327072335
   SerializableEventsDict:
-  - key: event:/queerComfortTest
+  - key: event:/Tests/queerComfortTest
     index: 0
+  - key: event:/Music/Music New
+    index: 1
+--- !u!114 &1355384877174756597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Music New
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Music New
+  Guid:
+    Data1: -1075588403
+    Data2: 1170345125
+    Data3: -1943513199
+    Data4: -1238712858
+  Banks:
+  - {fileID: -5052644510455157175}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -1413081324611106697}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 34285
