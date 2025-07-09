@@ -6642,6 +6642,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1507948737977452134, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1406491151185602923, guid: 3a3d5760fd9a748c6bfbc7e69f4db2e0, type: 3}
+    - target: {fileID: 1507948737977452134, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_Color.b
       value: 0.90622044
       objectReference: {fileID: 0}
@@ -6655,7 +6659,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4027555697791348061, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_Name
-      value: NPC (5)
+      value: Toucan
       objectReference: {fileID: 0}
     - target: {fileID: 4334359698894001378, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -6670,9 +6674,25 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1614993729}
     - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: upSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9e937fea2b3aa47d9b9d101a7f78ff45, type: 3}
+    - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: downSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dd598b1357eea44c88082ca1e39655cf, type: 3}
+    - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: leftSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 71b45f9b7f2424d229576a428986f87a, type: 3}
+    - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 649863166}
+    - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: rightSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e7c7cb1445af9465f984efbd0684038a, type: 3}
     - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: playerDistance
       value: 100
@@ -6716,6 +6736,22 @@ PrefabInstance:
     - target: {fileID: 5785648157733746457, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Size.x
+      value: 5.44375
+      objectReference: {fileID: 0}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Size.y
+      value: 4.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dd598b1357eea44c88082ca1e39655cf, type: 3}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7676519528889246113, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: viewAngle
