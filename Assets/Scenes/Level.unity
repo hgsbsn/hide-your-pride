@@ -1526,7 +1526,7 @@ GameObject:
   - component: {fileID: 226485164}
   - component: {fileID: 226485163}
   m_Layer: 6
-  m_Name: Pedestrian
+  m_Name: Frog Pedestrian
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1549,10 +1549,10 @@ MonoBehaviour:
   maxMoveTime: 4
   minPauseTime: 1
   maxPauseTime: 2
-  upSprite: {fileID: 21300000, guid: b58f976e4070947b8a1ddeb88483a708, type: 3}
-  downSprite: {fileID: 21300000, guid: 8249b1ec38eab45df813ff9be5344bb2, type: 3}
-  leftSprite: {fileID: 21300000, guid: 3ba9b73f62fea40249f856bf9205f203, type: 3}
-  rightSprite: {fileID: 21300000, guid: 1c1f7a3d50f8e41a2a60c56bc10d879a, type: 3}
+  upSprite: {fileID: 21300000, guid: f364beb1fad6e4e749758c57959e671e, type: 3}
+  downSprite: {fileID: 21300000, guid: 37053210977ab4ab6b0ef6970f6ee2a1, type: 3}
+  leftSprite: {fileID: 21300000, guid: 8aa602e21a2e14e18bce5ac1fd3b1d82, type: 3}
+  rightSprite: {fileID: 21300000, guid: 6d9624808a7184a70af817287f85bd25, type: 3}
 --- !u!70 &226485164
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1588,7 +1588,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: -0.0046793222, y: 0}
-  m_Size: {x: 0.48060083, y: 1.0025942}
+  m_Size: {x: 1.45, y: 2.31}
   m_Direction: 0
 --- !u!50 &226485165
 Rigidbody2D:
@@ -1661,7 +1661,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8249b1ec38eab45df813ff9be5344bb2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 37053210977ab4ab6b0ef6970f6ee2a1, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3882,6 +3882,18 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 07360cc1cabf94efe8be6fb49d8bb0fe, type: 3}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7676519528889246113, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: viewAngle
       value: 29
@@ -5376,7 +5388,7 @@ GameObject:
   - component: {fileID: 654106167}
   - component: {fileID: 654106166}
   m_Layer: 6
-  m_Name: Pedestrian (5)
+  m_Name: Tapir Pedestrian 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5399,10 +5411,10 @@ MonoBehaviour:
   maxMoveTime: 4
   minPauseTime: 1
   maxPauseTime: 2
-  upSprite: {fileID: 21300000, guid: b58f976e4070947b8a1ddeb88483a708, type: 3}
-  downSprite: {fileID: 21300000, guid: 8249b1ec38eab45df813ff9be5344bb2, type: 3}
-  leftSprite: {fileID: 21300000, guid: 3ba9b73f62fea40249f856bf9205f203, type: 3}
-  rightSprite: {fileID: 21300000, guid: 1c1f7a3d50f8e41a2a60c56bc10d879a, type: 3}
+  upSprite: {fileID: 21300000, guid: c4081760e01b744f1bbf262146d21aa5, type: 3}
+  downSprite: {fileID: 21300000, guid: 07360cc1cabf94efe8be6fb49d8bb0fe, type: 3}
+  leftSprite: {fileID: 21300000, guid: c0d6554a3c01943fcbde6e6a4a01efdb, type: 3}
+  rightSprite: {fileID: 21300000, guid: e769772f8fd2a46efb778f09ae7c4265, type: 3}
 --- !u!70 &654106167
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -5438,7 +5450,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: -0.0046793222, y: 0}
-  m_Size: {x: 0.48060083, y: 1.0025942}
+  m_Size: {x: 1.45, y: 2.31}
   m_Direction: 0
 --- !u!50 &654106168
 Rigidbody2D:
@@ -5511,7 +5523,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8249b1ec38eab45df813ff9be5344bb2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 07360cc1cabf94efe8be6fb49d8bb0fe, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5547,19 +5559,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1507948737977452134, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_Color.b
-      value: 0.0045834924
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1507948737977452134, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_Color.g
-      value: 0.36373234
+      value: 0.37246963
       objectReference: {fileID: 0}
     - target: {fileID: 1507948737977452134, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_Color.r
-      value: 0.9716981
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4027555697791348061, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_Name
-      value: NPC
+      value: Female Lion 2
       objectReference: {fileID: 0}
     - target: {fileID: 4334359698894001378, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -5616,6 +5628,18 @@ PrefabInstance:
     - target: {fileID: 5785648157733746457, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Color.b
+      value: 0.19339621
+      objectReference: {fileID: 0}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Color.g
+      value: 0.6362896
+      objectReference: {fileID: 0}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7676519528889246113, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: viewAngle
@@ -6750,6 +6774,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: dd598b1357eea44c88082ca1e39655cf, type: 3}
     - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
@@ -7688,7 +7724,7 @@ GameObject:
   - component: {fileID: 856450525}
   - component: {fileID: 856450524}
   m_Layer: 6
-  m_Name: Pedestrian (7)
+  m_Name: Toucan Pedestrian 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7711,10 +7747,10 @@ MonoBehaviour:
   maxMoveTime: 4
   minPauseTime: 1
   maxPauseTime: 2
-  upSprite: {fileID: 21300000, guid: b58f976e4070947b8a1ddeb88483a708, type: 3}
-  downSprite: {fileID: 21300000, guid: 8249b1ec38eab45df813ff9be5344bb2, type: 3}
-  leftSprite: {fileID: 21300000, guid: 3ba9b73f62fea40249f856bf9205f203, type: 3}
-  rightSprite: {fileID: 21300000, guid: 1c1f7a3d50f8e41a2a60c56bc10d879a, type: 3}
+  upSprite: {fileID: 21300000, guid: 9e937fea2b3aa47d9b9d101a7f78ff45, type: 3}
+  downSprite: {fileID: 21300000, guid: dd598b1357eea44c88082ca1e39655cf, type: 3}
+  leftSprite: {fileID: 21300000, guid: 71b45f9b7f2424d229576a428986f87a, type: 3}
+  rightSprite: {fileID: 21300000, guid: e7c7cb1445af9465f984efbd0684038a, type: 3}
 --- !u!70 &856450525
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -7750,7 +7786,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: -0.0046793222, y: 0}
-  m_Size: {x: 0.48060083, y: 1.0025942}
+  m_Size: {x: 1.45, y: 2.31}
   m_Direction: 0
 --- !u!50 &856450526
 Rigidbody2D:
@@ -7823,7 +7859,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8249b1ec38eab45df813ff9be5344bb2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dd598b1357eea44c88082ca1e39655cf, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8328,7 +8364,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4027555697791348061, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_Name
-      value: NPC (2)
+      value: Male Lion 2
       objectReference: {fileID: 0}
     - target: {fileID: 4334359698894001378, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -8339,9 +8375,25 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1614993729}
     - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: upSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 54fb55e95b47942a68f1cf6d2e5864e8, type: 3}
+    - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: downSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: df90267114252431dbfe30d9d49cbc32, type: 3}
+    - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: leftSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 474eb66dc09cd4c488dd714e02d81e4d, type: 3}
+    - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 649863166}
+    - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: rightSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 13d4e8e6ec6f242b18947efcbf63103d, type: 3}
     - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: playerDistance
       value: 100
@@ -8385,6 +8437,22 @@ PrefabInstance:
     - target: {fileID: 5785648157733746457, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: df90267114252431dbfe30d9d49cbc32, type: 3}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Color.b
+      value: 0.10208259
+      objectReference: {fileID: 0}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Color.g
+      value: 0.27729568
+      objectReference: {fileID: 0}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6981132
       objectReference: {fileID: 0}
     - target: {fileID: 7676519528889246113, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: viewAngle
@@ -8828,7 +8896,7 @@ GameObject:
   - component: {fileID: 982611305}
   - component: {fileID: 982611304}
   m_Layer: 6
-  m_Name: Pedestrian (3)
+  m_Name: Gorilla Pedestrian 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8851,10 +8919,10 @@ MonoBehaviour:
   maxMoveTime: 4
   minPauseTime: 1
   maxPauseTime: 2
-  upSprite: {fileID: 21300000, guid: b58f976e4070947b8a1ddeb88483a708, type: 3}
-  downSprite: {fileID: 21300000, guid: 8249b1ec38eab45df813ff9be5344bb2, type: 3}
-  leftSprite: {fileID: 21300000, guid: 3ba9b73f62fea40249f856bf9205f203, type: 3}
-  rightSprite: {fileID: 21300000, guid: 1c1f7a3d50f8e41a2a60c56bc10d879a, type: 3}
+  upSprite: {fileID: 21300000, guid: 99cf168e19dc44b1cbc0bc815ec21c35, type: 3}
+  downSprite: {fileID: 21300000, guid: 848888b4869464b09a5878ddee3b7f91, type: 3}
+  leftSprite: {fileID: 21300000, guid: 6c2238c8835d24f40814ec49c2fe10ac, type: 3}
+  rightSprite: {fileID: 21300000, guid: 92006bf4e262a40d3ab882871dcf7e72, type: 3}
 --- !u!70 &982611305
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -8890,7 +8958,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: -0.0046793222, y: 0}
-  m_Size: {x: 0.48060083, y: 1.0025942}
+  m_Size: {x: 1.45, y: 2.31}
   m_Direction: 0
 --- !u!50 &982611306
 Rigidbody2D:
@@ -8963,7 +9031,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8249b1ec38eab45df813ff9be5344bb2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 848888b4869464b09a5878ddee3b7f91, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9264,7 +9332,7 @@ GameObject:
   - component: {fileID: 1062571820}
   - component: {fileID: 1062571819}
   m_Layer: 6
-  m_Name: Pedestrian (1)
+  m_Name: Frog Pedestrian 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9287,10 +9355,10 @@ MonoBehaviour:
   maxMoveTime: 4
   minPauseTime: 1
   maxPauseTime: 2
-  upSprite: {fileID: 21300000, guid: b58f976e4070947b8a1ddeb88483a708, type: 3}
-  downSprite: {fileID: 21300000, guid: 8249b1ec38eab45df813ff9be5344bb2, type: 3}
-  leftSprite: {fileID: 21300000, guid: 3ba9b73f62fea40249f856bf9205f203, type: 3}
-  rightSprite: {fileID: 21300000, guid: 1c1f7a3d50f8e41a2a60c56bc10d879a, type: 3}
+  upSprite: {fileID: 21300000, guid: f364beb1fad6e4e749758c57959e671e, type: 3}
+  downSprite: {fileID: 21300000, guid: 37053210977ab4ab6b0ef6970f6ee2a1, type: 3}
+  leftSprite: {fileID: 21300000, guid: 8aa602e21a2e14e18bce5ac1fd3b1d82, type: 3}
+  rightSprite: {fileID: 21300000, guid: 6d9624808a7184a70af817287f85bd25, type: 3}
 --- !u!70 &1062571820
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -9326,7 +9394,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: -0.0046793222, y: 0}
-  m_Size: {x: 0.48060083, y: 1.0025942}
+  m_Size: {x: 1.45, y: 2.31}
   m_Direction: 0
 --- !u!50 &1062571821
 Rigidbody2D:
@@ -9399,7 +9467,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8249b1ec38eab45df813ff9be5344bb2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 37053210977ab4ab6b0ef6970f6ee2a1, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -13049,7 +13117,7 @@ GameObject:
   - component: {fileID: 1508083196}
   - component: {fileID: 1508083195}
   m_Layer: 6
-  m_Name: Pedestrian (6)
+  m_Name: Toucan Pedestrian
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13072,10 +13140,10 @@ MonoBehaviour:
   maxMoveTime: 4
   minPauseTime: 1
   maxPauseTime: 2
-  upSprite: {fileID: 21300000, guid: b58f976e4070947b8a1ddeb88483a708, type: 3}
-  downSprite: {fileID: 21300000, guid: 8249b1ec38eab45df813ff9be5344bb2, type: 3}
-  leftSprite: {fileID: 21300000, guid: 3ba9b73f62fea40249f856bf9205f203, type: 3}
-  rightSprite: {fileID: 21300000, guid: 1c1f7a3d50f8e41a2a60c56bc10d879a, type: 3}
+  upSprite: {fileID: 21300000, guid: 9e937fea2b3aa47d9b9d101a7f78ff45, type: 3}
+  downSprite: {fileID: 21300000, guid: dd598b1357eea44c88082ca1e39655cf, type: 3}
+  leftSprite: {fileID: 21300000, guid: 71b45f9b7f2424d229576a428986f87a, type: 3}
+  rightSprite: {fileID: 21300000, guid: e7c7cb1445af9465f984efbd0684038a, type: 3}
 --- !u!70 &1508083196
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -13111,7 +13179,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: -0.0046793222, y: 0}
-  m_Size: {x: 0.48060083, y: 1.0025942}
+  m_Size: {x: 1.45, y: 2.31}
   m_Direction: 0
 --- !u!50 &1508083197
 Rigidbody2D:
@@ -13184,7 +13252,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8249b1ec38eab45df813ff9be5344bb2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dd598b1357eea44c88082ca1e39655cf, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -18856,6 +18924,18 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 848888b4869464b09a5878ddee3b7f91, type: 3}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7676519528889246113, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: viewAngle
       value: 29
@@ -18915,7 +18995,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4027555697791348061, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_Name
-      value: NPC (1)
+      value: Male Lion
       objectReference: {fileID: 0}
     - target: {fileID: 4334359698894001378, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -18926,9 +19006,25 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1614993729}
     - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: upSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 54fb55e95b47942a68f1cf6d2e5864e8, type: 3}
+    - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: downSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: df90267114252431dbfe30d9d49cbc32, type: 3}
+    - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: leftSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 474eb66dc09cd4c488dd714e02d81e4d, type: 3}
+    - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 649863166}
+    - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: rightSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 13d4e8e6ec6f242b18947efcbf63103d, type: 3}
     - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: playerDistance
       value: 100
@@ -18972,6 +19068,22 @@ PrefabInstance:
     - target: {fileID: 5785648157733746457, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: df90267114252431dbfe30d9d49cbc32, type: 3}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Color.b
+      value: 0.10208259
+      objectReference: {fileID: 0}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Color.g
+      value: 0.27729568
+      objectReference: {fileID: 0}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6981132
       objectReference: {fileID: 0}
     - target: {fileID: 7676519528889246113, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: viewAngle
@@ -19115,7 +19227,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: -0.0046793222, y: 0}
-  m_Size: {x: 0.48060083, y: 1.0025942}
+  m_Size: {x: 1.45, y: 2.31}
   m_Direction: 0
 --- !u!50 &1642444508
 Rigidbody2D:
@@ -20037,7 +20149,7 @@ GameObject:
   - component: {fileID: 1784936271}
   - component: {fileID: 1784936270}
   m_Layer: 6
-  m_Name: Pedestrian (4)
+  m_Name: Tapir Pedestrian
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20060,10 +20172,10 @@ MonoBehaviour:
   maxMoveTime: 4
   minPauseTime: 1
   maxPauseTime: 2
-  upSprite: {fileID: 21300000, guid: b58f976e4070947b8a1ddeb88483a708, type: 3}
-  downSprite: {fileID: 21300000, guid: 8249b1ec38eab45df813ff9be5344bb2, type: 3}
-  leftSprite: {fileID: 21300000, guid: 3ba9b73f62fea40249f856bf9205f203, type: 3}
-  rightSprite: {fileID: 21300000, guid: 1c1f7a3d50f8e41a2a60c56bc10d879a, type: 3}
+  upSprite: {fileID: 21300000, guid: c4081760e01b744f1bbf262146d21aa5, type: 3}
+  downSprite: {fileID: 21300000, guid: 07360cc1cabf94efe8be6fb49d8bb0fe, type: 3}
+  leftSprite: {fileID: 21300000, guid: c0d6554a3c01943fcbde6e6a4a01efdb, type: 3}
+  rightSprite: {fileID: 21300000, guid: e769772f8fd2a46efb778f09ae7c4265, type: 3}
 --- !u!70 &1784936271
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -20099,7 +20211,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: -0.0046793222, y: 0}
-  m_Size: {x: 0.48060083, y: 1.0025942}
+  m_Size: {x: 1.45, y: 2.31}
   m_Direction: 0
 --- !u!50 &1784936272
 Rigidbody2D:
@@ -20172,7 +20284,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8249b1ec38eab45df813ff9be5344bb2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 07360cc1cabf94efe8be6fb49d8bb0fe, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -20660,7 +20772,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: -0.0046793222, y: 0}
-  m_Size: {x: 0.48060083, y: 1.0025942}
+  m_Size: {x: 1.45, y: 2.31}
   m_Direction: 0
 --- !u!50 &1847736406
 Rigidbody2D:
@@ -21155,7 +21267,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4027555697791348061, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_Name
-      value: NPC (6)
+      value: Frog
       objectReference: {fileID: 0}
     - target: {fileID: 4334359698894001378, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -21170,9 +21282,25 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1614993729}
     - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: upSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f364beb1fad6e4e749758c57959e671e, type: 3}
+    - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: downSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 37053210977ab4ab6b0ef6970f6ee2a1, type: 3}
+    - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: leftSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8aa602e21a2e14e18bce5ac1fd3b1d82, type: 3}
+    - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 649863166}
+    - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: rightSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6d9624808a7184a70af817287f85bd25, type: 3}
     - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: playerDistance
       value: 100
@@ -21216,6 +21344,34 @@ PrefabInstance:
     - target: {fileID: 5785648157733746457, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Size.x
+      value: 3.35625
+      objectReference: {fileID: 0}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Size.y
+      value: 4.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 37053210977ab4ab6b0ef6970f6ee2a1, type: 3}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7676519528889246113, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: viewAngle
@@ -22202,7 +22358,7 @@ GameObject:
   - component: {fileID: 2140728220}
   - component: {fileID: 2140728219}
   m_Layer: 6
-  m_Name: Pedestrian (2)
+  m_Name: Gorilla Pedestrian
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22225,10 +22381,10 @@ MonoBehaviour:
   maxMoveTime: 4
   minPauseTime: 1
   maxPauseTime: 2
-  upSprite: {fileID: 21300000, guid: b58f976e4070947b8a1ddeb88483a708, type: 3}
-  downSprite: {fileID: 21300000, guid: 8249b1ec38eab45df813ff9be5344bb2, type: 3}
-  leftSprite: {fileID: 21300000, guid: 3ba9b73f62fea40249f856bf9205f203, type: 3}
-  rightSprite: {fileID: 21300000, guid: 1c1f7a3d50f8e41a2a60c56bc10d879a, type: 3}
+  upSprite: {fileID: 21300000, guid: 99cf168e19dc44b1cbc0bc815ec21c35, type: 3}
+  downSprite: {fileID: 21300000, guid: 848888b4869464b09a5878ddee3b7f91, type: 3}
+  leftSprite: {fileID: 21300000, guid: 6c2238c8835d24f40814ec49c2fe10ac, type: 3}
+  rightSprite: {fileID: 21300000, guid: 92006bf4e262a40d3ab882871dcf7e72, type: 3}
 --- !u!70 &2140728220
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -22264,7 +22420,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: -0.0046793222, y: 0}
-  m_Size: {x: 0.48060083, y: 1.0025942}
+  m_Size: {x: 1.45, y: 2.31}
   m_Direction: 0
 --- !u!50 &2140728221
 Rigidbody2D:
@@ -22337,7 +22493,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8249b1ec38eab45df813ff9be5344bb2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 848888b4869464b09a5878ddee3b7f91, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -22373,19 +22529,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1507948737977452134, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_Color.b
-      value: 0.0045834924
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1507948737977452134, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_Color.g
-      value: 0.36373234
+      value: 0.37246963
       objectReference: {fileID: 0}
     - target: {fileID: 1507948737977452134, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_Color.r
-      value: 0.9716981
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4027555697791348061, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_Name
-      value: Mom
+      value: 'Female Lion '
       objectReference: {fileID: 0}
     - target: {fileID: 4334359698894001378, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -22442,6 +22598,18 @@ PrefabInstance:
     - target: {fileID: 5785648157733746457, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Color.b
+      value: 0.19339621
+      objectReference: {fileID: 0}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Color.g
+      value: 0.6362896
+      objectReference: {fileID: 0}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7676519528889246113, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: viewAngle

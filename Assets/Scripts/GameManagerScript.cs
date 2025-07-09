@@ -30,7 +30,7 @@ public class GameManagerScript : MonoBehaviour
         StartCoroutine(DrainScoresOverTime());
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         familyHeartFill.UpdateFamilyHeartFill(familyScore);
         friendHeartFill.UpdateFriendHeartFill(friendScore);
