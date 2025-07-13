@@ -66,7 +66,7 @@ public class TimeSpentScript : MonoBehaviour
 
     private void OnTimerEnd()
     {
-        Debug.Log("Timer finished!");
+        //Debug.Log("Timer finished!");
         // Optional: trigger an event, end game, etc.
     }
 }
