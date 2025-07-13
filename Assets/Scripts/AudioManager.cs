@@ -7,8 +7,14 @@ using FMOD.Studio;
 public class AudioManager : MonoBehaviour
 {
     
+    public GameManagerScript gameManager;
+    public PlayerMovement2D player;
+    
     public EventInstance music;
     public static AudioManager instance { get; private set; }
+
+    // music state accessible by whole class
+    public float musicState = -1.0f;
 
     private void Awake()
     {
@@ -25,19 +31,11 @@ public class AudioManager : MonoBehaviour
         InitializeMusic(FMODEvents.instance.music);
     }
 
-    /*
     private void Update()
     {
-        if (npc.playerSpotted && player.masc)
-        {
-            UpdateMusic(3.0f);
-        }
-        if (npc.playerSpotted && !player.masc)
-        {
-            UpdateMusic(1.0f);
-        }
+        // MusicControl();
+        StartCoroutine(ShowMusic());
     }
-    */
     
     public EventInstance CreateEventInstance(EventReference eventReference)
     {
@@ -52,14 +50,50 @@ public class AudioManager : MonoBehaviour
         music.start();
     }
 
-    public void UpdateMusic(float musicState)
+    public void UpdateMusic(float updateMusicState)
     {
+        musicState = updateMusicState;
         music.setParameterByName("MusicState", musicState);
     }
+
+    public IEnumerator ShowMusic()
+    {
+        yield return new WaitForSeconds(5f);
+        Debug.Log(musicState.ToString());
+    }
+    
 
     public void StopMusic()
     {
         music.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
         music.release();
     }
+
+    // public void MusicControl()
+    // {
+    //     if (gameManager.friendTimeTimer >= gameManager.midTimerStanding)
+    //     {
+    //         if (!player.masc)
+    //         {
+    //             UpdateMusic(1.0f);
+    //         }
+    //         else
+    //         {
+    //             UpdateMusic(3.0f);
+    //         }
+    //     }
+    //
+    //     if (gameManager.familyTimeTimer >= gameManager.midTimerStanding)
+    //     {
+    //         if (!player.masc)
+    //         {
+    //             UpdateMusic(1.0f);
+    //         }
+    //         else
+    //         {
+    //             UpdateMusic(3.0f);
+    //         }
+    //     }
+    // }
+
 }
