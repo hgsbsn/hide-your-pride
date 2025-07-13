@@ -5571,7 +5571,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4027555697791348061, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_Name
-      value: Female Lion 2
+      value: Sister
       objectReference: {fileID: 0}
     - target: {fileID: 4334359698894001378, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -5582,9 +5582,25 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1614993729}
     - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: upSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7e1319c0aa67a4dbab4df18b52767371, type: 3}
+    - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: downSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9e2f0ca1433194fe8827ae0ba8c877e9, type: 3}
+    - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: leftSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3ad0559ac28844a2c995d0fd12403818, type: 3}
+    - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 649863166}
+    - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: rightSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: da673534b7b5a4215a4279f68cfeeef6, type: 3}
     - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: playerDistance
       value: 100
@@ -5630,12 +5646,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9e2f0ca1433194fe8827ae0ba8c877e9, type: 3}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_Color.b
-      value: 0.19339621
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_Color.g
-      value: 0.6362896
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_Color.r
@@ -8364,7 +8384,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4027555697791348061, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_Name
-      value: Male Lion 2
+      value: Dad
       objectReference: {fileID: 0}
     - target: {fileID: 4334359698894001378, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -8377,15 +8397,15 @@ PrefabInstance:
     - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: upSprite
       value: 
-      objectReference: {fileID: 21300000, guid: 54fb55e95b47942a68f1cf6d2e5864e8, type: 3}
+      objectReference: {fileID: 21300000, guid: cbdaec2ed3eeb44daadd1704d7d7d682, type: 3}
     - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: downSprite
       value: 
-      objectReference: {fileID: 21300000, guid: df90267114252431dbfe30d9d49cbc32, type: 3}
+      objectReference: {fileID: 21300000, guid: cd268b2febd3c4dd489513db38c8e2f8, type: 3}
     - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: leftSprite
       value: 
-      objectReference: {fileID: 21300000, guid: 474eb66dc09cd4c488dd714e02d81e4d, type: 3}
+      objectReference: {fileID: 21300000, guid: 1ad1273bf4ef246678d8d848f866048c, type: 3}
     - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: gameManager
       value: 
@@ -8393,7 +8413,7 @@ PrefabInstance:
     - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: rightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: 13d4e8e6ec6f242b18947efcbf63103d, type: 3}
+      objectReference: {fileID: 21300000, guid: 7448a4c6ff0a74917986f53e27f146eb, type: 3}
     - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: playerDistance
       value: 100
@@ -8441,18 +8461,18 @@ PrefabInstance:
     - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: df90267114252431dbfe30d9d49cbc32, type: 3}
+      objectReference: {fileID: 21300000, guid: cd268b2febd3c4dd489513db38c8e2f8, type: 3}
     - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_Color.b
-      value: 0.10208259
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_Color.g
-      value: 0.27729568
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_Color.r
-      value: 0.6981132
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7676519528889246113, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: viewAngle
@@ -18995,7 +19015,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4027555697791348061, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_Name
-      value: Male Lion
+      value: Brother
       objectReference: {fileID: 0}
     - target: {fileID: 4334359698894001378, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -19008,15 +19028,15 @@ PrefabInstance:
     - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: upSprite
       value: 
-      objectReference: {fileID: 21300000, guid: 54fb55e95b47942a68f1cf6d2e5864e8, type: 3}
+      objectReference: {fileID: 21300000, guid: 01fba573ab57f482690e953019d03d07, type: 3}
     - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: downSprite
       value: 
-      objectReference: {fileID: 21300000, guid: df90267114252431dbfe30d9d49cbc32, type: 3}
+      objectReference: {fileID: 21300000, guid: f61ca07e0f7fb4ab9927b617404e9f69, type: 3}
     - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: leftSprite
       value: 
-      objectReference: {fileID: 21300000, guid: 474eb66dc09cd4c488dd714e02d81e4d, type: 3}
+      objectReference: {fileID: 21300000, guid: c67c7dbbcb5154caa9344c0a45684257, type: 3}
     - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: gameManager
       value: 
@@ -19024,7 +19044,7 @@ PrefabInstance:
     - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: rightSprite
       value: 
-      objectReference: {fileID: 21300000, guid: 13d4e8e6ec6f242b18947efcbf63103d, type: 3}
+      objectReference: {fileID: 21300000, guid: 9a2f163a08a5f4677aca4b493d1432fa, type: 3}
     - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: playerDistance
       value: 100
@@ -19072,18 +19092,18 @@ PrefabInstance:
     - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: df90267114252431dbfe30d9d49cbc32, type: 3}
+      objectReference: {fileID: 21300000, guid: f61ca07e0f7fb4ab9927b617404e9f69, type: 3}
     - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_Color.b
-      value: 0.10208259
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_Color.g
-      value: 0.27729568
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_Color.r
-      value: 0.6981132
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7676519528889246113, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: viewAngle
@@ -19188,10 +19208,10 @@ MonoBehaviour:
   maxMoveTime: 4
   minPauseTime: 1
   maxPauseTime: 2
-  upSprite: {fileID: 21300000, guid: b58f976e4070947b8a1ddeb88483a708, type: 3}
-  downSprite: {fileID: 21300000, guid: 8249b1ec38eab45df813ff9be5344bb2, type: 3}
-  leftSprite: {fileID: 21300000, guid: 3ba9b73f62fea40249f856bf9205f203, type: 3}
-  rightSprite: {fileID: 21300000, guid: 1c1f7a3d50f8e41a2a60c56bc10d879a, type: 3}
+  upSprite: {fileID: 21300000, guid: 7e1319c0aa67a4dbab4df18b52767371, type: 3}
+  downSprite: {fileID: 21300000, guid: 9e2f0ca1433194fe8827ae0ba8c877e9, type: 3}
+  leftSprite: {fileID: 21300000, guid: 3ad0559ac28844a2c995d0fd12403818, type: 3}
+  rightSprite: {fileID: 21300000, guid: da673534b7b5a4215a4279f68cfeeef6, type: 3}
 --- !u!70 &1642444507
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -19300,7 +19320,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8249b1ec38eab45df813ff9be5344bb2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9e2f0ca1433194fe8827ae0ba8c877e9, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -20733,10 +20753,10 @@ MonoBehaviour:
   maxMoveTime: 4
   minPauseTime: 1
   maxPauseTime: 2
-  upSprite: {fileID: 21300000, guid: b58f976e4070947b8a1ddeb88483a708, type: 3}
-  downSprite: {fileID: 21300000, guid: 8249b1ec38eab45df813ff9be5344bb2, type: 3}
-  leftSprite: {fileID: 21300000, guid: 3ba9b73f62fea40249f856bf9205f203, type: 3}
-  rightSprite: {fileID: 21300000, guid: 1c1f7a3d50f8e41a2a60c56bc10d879a, type: 3}
+  upSprite: {fileID: 21300000, guid: 7e1319c0aa67a4dbab4df18b52767371, type: 3}
+  downSprite: {fileID: 21300000, guid: 9e2f0ca1433194fe8827ae0ba8c877e9, type: 3}
+  leftSprite: {fileID: 21300000, guid: 3ad0559ac28844a2c995d0fd12403818, type: 3}
+  rightSprite: {fileID: 21300000, guid: da673534b7b5a4215a4279f68cfeeef6, type: 3}
 --- !u!70 &1847736405
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -20845,7 +20865,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8249b1ec38eab45df813ff9be5344bb2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9e2f0ca1433194fe8827ae0ba8c877e9, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -22541,7 +22561,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4027555697791348061, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_Name
-      value: 'Female Lion '
+      value: Mom
       objectReference: {fileID: 0}
     - target: {fileID: 4334359698894001378, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -22552,9 +22572,25 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1614993729}
     - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: upSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1871153af7fc34c56be59d28e8d6239c, type: 3}
+    - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: downSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 93301573e54ae4724a8c07ab2ed9de62, type: 3}
+    - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: leftSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1563064e774164602b4332e655fe0708, type: 3}
+    - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 649863166}
+    - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: rightSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bee6adcd31477478cb5ba6aca3a19c08, type: 3}
     - target: {fileID: 4966140435827119569, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: playerDistance
       value: 100
@@ -22600,12 +22636,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 93301573e54ae4724a8c07ab2ed9de62, type: 3}
+    - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_Color.b
-      value: 0.19339621
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_Color.g
-      value: 0.6362896
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6412658096946678131, guid: ef4338fae1c184553b225fda46191a4c, type: 3}
       propertyPath: m_Color.r
