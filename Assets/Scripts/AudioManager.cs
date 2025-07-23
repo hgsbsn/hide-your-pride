@@ -23,7 +23,6 @@ public class AudioManager : MonoBehaviour
             Debug.Log("More than one AudioManager found in scene.");
         }
         instance = this;
-        
     }
 
     private void Start()
@@ -61,7 +60,6 @@ public class AudioManager : MonoBehaviour
         yield return new WaitForSeconds(5f);
         Debug.Log(musicState.ToString());
     }
-    
 
     public void StopMusic()
     {
